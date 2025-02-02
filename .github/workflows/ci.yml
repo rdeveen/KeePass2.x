@@ -37,6 +37,6 @@ jobs:
       uses: actions/upload-artifact@v4.6.0
       with:
         name: KeePass 2.x ARM
-        path: ${{env.GITHUB_WORKSPACE}}/Build/KeePass/${{env.BUILD_CONFIGURATION}}/
+        path: ${{env.SOLUTION_FILE_PATH}}\Build\KeePass\${{env.BUILD_CONFIGURATION}}\
       
     
